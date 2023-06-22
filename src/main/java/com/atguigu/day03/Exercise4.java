@@ -12,6 +12,7 @@ import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.util.Collector;
 
+import java.security.Principal;
 import java.util.Random;
 
 public class Exercise4 {
@@ -34,6 +35,7 @@ public class Exercise4 {
                         ));
                     }
                     Thread.sleep(1000L);
+
                 }
                 
             }
@@ -89,10 +91,10 @@ public class Exercise4 {
             public void close() throws Exception {
                 super.close();
             }
-        }).print();
-        
-        
-        
+        }).print("测试test");
+
+
+
         env.execute();
         
         

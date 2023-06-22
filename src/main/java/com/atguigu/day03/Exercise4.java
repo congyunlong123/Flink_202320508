@@ -94,6 +94,8 @@ public class Exercise4 {
         }).print("测试test");
 
         System.out.println("master");
+        System.out.println("hot-fix");
+        System.out.println("测试分支冲突");
 
 
         env.execute();

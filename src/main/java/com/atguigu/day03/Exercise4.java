@@ -96,7 +96,7 @@ public class Exercise4 {
         System.out.println("hot-fix");
         System.out.println("测试分支冲突");
         System.out.println("测试分支冲突");
-
+        System.out.println("测试分支冲突");
         env.execute();
         
         

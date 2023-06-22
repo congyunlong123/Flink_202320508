@@ -94,6 +94,7 @@ public class Exercise4 {
         }).print("测试test");
 
 
+        System.out.println("master");
 
         env.execute();
         
